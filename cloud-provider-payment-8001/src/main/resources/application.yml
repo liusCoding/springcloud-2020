@@ -7,9 +7,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-    url: jdbc:mysql://localhost:3306/db2019?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/springcloud-2020?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: 123456
+    password: root
 
 
 mybatis:

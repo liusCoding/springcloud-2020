@@ -19,12 +19,18 @@ eureka:
     fetchRegistry: true
     service-url:
       #单机版
-      #defaultZone: http://localhost:7001/eureka
+      defaultZone: http://localhost:7001/eureka
       # 集群版
-      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+     # defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
   instance:
     instance-id: payment8001
     prefer-ip-address: true  # 访问路径可以显示ip
+    #Eureka客户端向服务端发送心跳的时间间隔，单位为秒(默认是30秒)
+    lease-renewal-interval-in-seconds: 1
+    #Eureka服务端在收到最后一次心跳后等待时间上限，单位为秒(默认是90秒)，超时将剔除服务
+    lease-expiration-duration-in-seconds: 2
+
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包

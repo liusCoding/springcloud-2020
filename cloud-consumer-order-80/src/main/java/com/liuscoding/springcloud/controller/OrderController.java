@@ -22,7 +22,9 @@ public class OrderController {
 
     private final RestTemplate restTemplate;
 
-    public static String PAYMENT_URL = "http://localhost:8001";
+//    public static String PAYMENT_URL = "http://localhost:8001";
+
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     public OrderController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;

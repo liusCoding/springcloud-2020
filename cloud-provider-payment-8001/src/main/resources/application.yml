@@ -19,8 +19,9 @@ eureka:
     fetchRegistry: true
     service-url:
       #单机版
-      defaultZone: http://localhost:7001/eureka
-
+      #defaultZone: http://localhost:7001/eureka
+      # 集群版
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包

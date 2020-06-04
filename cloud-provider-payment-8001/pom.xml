@@ -12,7 +12,11 @@
     <artifactId>cloud-provider-payment-8001</artifactId>
 
     <dependencies>
-
+        <!--eureka-client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.liuscoding</groupId>
             <artifactId>cloud-api-commons</artifactId>

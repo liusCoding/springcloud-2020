@@ -11,6 +11,7 @@
     <modules>
         <module>cloud-provider-payment-8001</module>
         <module>cloud-consumer-order-80</module>
+        <module>cloud-api-commons</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>
@@ -86,6 +87,7 @@
         </dependencies>
     </dependencyManagement>
 
+
     <build>
         <plugins>
             <plugin>
@@ -99,20 +101,7 @@
         </plugins>
     </build>
 
-    <!--第三方maven私服-->
-    <repositories>
-        <repository>
-            <id>nexus-aliyun</id>
-            <name>Nexus aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+
 
 
 </project>

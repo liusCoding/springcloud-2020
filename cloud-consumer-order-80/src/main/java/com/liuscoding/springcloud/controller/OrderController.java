@@ -1,5 +1,6 @@
 package com.liuscoding.springcloud.controller;
 
+
 import com.liuscoding.springcloud.entity.Payment;
 import com.liuscoding.springcloud.vo.CommonResult;
 import lombok.extern.slf4j.Slf4j;
@@ -29,7 +30,7 @@ public class OrderController {
 
     @RequestMapping("/payment/create")
     public CommonResult<Payment> create(Payment payment){
-        return restTemplate.postForObject(PAYMENT_URL+"/payment/create",payment,CommonResult.class);
+        return restTemplate.postForObject(PAYMENT_URL+"/payment/create",payment, CommonResult.class);
     }
 
     @RequestMapping("/payment/get/{id}")

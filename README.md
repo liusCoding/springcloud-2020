@@ -1,8 +1,8 @@
 
 ![springcloud升级](https://cdn.nlark.com/yuque/0/2020/png/440247/1591254621437-3d771bcd-b0d2-4548-9aa7-d1529650b7d8.png)
 
-## 开源笔记
-个人Java学习开源笔记：[Java学习之路](https://www.yuque.com/lius/java)
+## 个人Java开源笔记和学习路线
+可能是全网最全的Java学习笔记：[Java学习之路](https://www.yuque.com/lius/java)
 
 
 ## 项目介绍

@@ -9,4 +9,4 @@ eureka:
 
 feign:
   hystrix:
-    enabled: false
+    enabled: true

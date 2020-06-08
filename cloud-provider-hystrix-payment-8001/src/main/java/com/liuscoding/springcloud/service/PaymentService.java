@@ -26,7 +26,7 @@ public class PaymentService {
 
         System.out.println("第"+count.getAndIncrement()+"请求");
         Integer timeOutNumber = 5;
-        int age  = 10/0;
+       // int age  = 10/0;
         try {
             TimeUnit.SECONDS.sleep(timeOutNumber);
         } catch (InterruptedException e) {

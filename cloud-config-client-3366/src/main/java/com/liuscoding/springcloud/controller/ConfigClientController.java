@@ -9,19 +9,23 @@ import org.springframework.web.bind.annotation.RestController;
  * @className: ConfigClientController
  * @description:
  * @author: liusCoding
- * @create: 2020-06-09 12:21
+ * @create: 2020-06-09 17:17
  */
 
 @RestController
 @RefreshScope
 public class ConfigClientController
 {
+    @Value("${server.port}")
+    private String serverPort;
+
     @Value("${config.info}")
     private String configInfo;
 
     @GetMapping("/configInfo")
-    public String getConfigInfo()
+    public String configInfo()
     {
-        return configInfo;
+        return "serverPort: "+serverPort+"\t\n\n configInfo: "+configInfo;
     }
+
 }

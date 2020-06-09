@@ -25,6 +25,7 @@
         <module>cloud-consumer-hystrix-dashboard-9001</module>
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-config-center-3344</module>
+        <module>cloud-conifg-center-3355</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>

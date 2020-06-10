@@ -28,6 +28,7 @@
         <module>cloud-conifg-center-3355</module>
         <module>cloud-config-client-3366</module>
         <module>cloud-stream-rabbitmq-provider-8801</module>
+        <module>cloud-stream-rabbitmq-consumer-8802</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>

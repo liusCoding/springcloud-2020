@@ -5,8 +5,8 @@
 
 ## 项目用到的软件包 
 
-链接：https://pan.baidu.com/s/1Ej8KJ-wSX-y7_Kn-2ghhHA 
-提取码：0as8
+链接:https://pan.baidu.com/s/1A_QKsHyx_eZvichqbk0r3g 
+提取码:fwmv
 
 ## 项目笔记脑图
 
@@ -17,3 +17,4 @@
 ## 网址失效请联系
 
 qq：1184529865
+微信：liuscoding

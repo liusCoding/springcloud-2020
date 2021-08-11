@@ -53,13 +53,13 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>RELEASE</version>
+            <version>4.1.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>RELEASE</version>
+            <version>4.1.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
